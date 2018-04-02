@@ -1,5 +1,5 @@
 ---
-title: About
+title: Život a dílo 
 menu:
   main:
     weight: 30
