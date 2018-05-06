@@ -2,14 +2,14 @@
 title: Život a dílo 
 menu:
   main:
-    weight: 30
+    weight: 30 
 ---
 
-This is a minimal [Hugo][] website created for a course [VIKBA07][].
+Toto je taková  malá zkouška pro odkazy - [Frida Wikipedia][].
 
 Learn more about Hugo with a [quick start guide][qs] or by exploring its [documentation][hugoDocs].
 
 [Hugo]: https://gohugo.io
-[VIKBA07]: https://is.muni.cz/predmet/phil/VIKBA07
+[Frida Wikipedia]: https://cs.wikipedia.org/wiki/Frida_Kahlo
 [hugoDocs]: https://gohugo.io/documentation/
 [qs]: https://gohugo.io/getting-started/quick-start/

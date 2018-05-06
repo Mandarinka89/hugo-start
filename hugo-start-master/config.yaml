@@ -5,15 +5,14 @@ publishDir: docs
 
 menu:
   main:
-    - name: Homepage
+    - name: Domovská stránka 
       url: /
       weight: 10
-    - name: Archive
+    - name: Archiv 
       identifier: post
       url: /post/
-      weight: 20
+      weight: 
 
 params:
-  description: Description of my new site.
-  authors: Authors
-
+  description: Moje první webová stránka.
+  authors: MANDARINKA

@@ -4,9 +4,67 @@
   <meta charset="utf-8">
   <title>{{ .Site.Title }}</title>
   <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
+  {{ template "_internal/google_analytics.html". }}
+  <link href="/assets/normalize.css" rel="stylesheet">
 </head>
+<style>
+  body {
+    background: deeppink;
+    font-family: Georgia;
+    text-align: center;
+  }
+  p {
+      font-size: 22px;
+  }
+  header {
+    font-family: Georgia;
+    background: aquamarine;
+    color: hotpink;
+    text-align: center;
+    border-style: solid;
+  }       
+  ul {
+    padding: 10px;
+    background: yellow;
+    width: 20%;
+    height: 40%;
+    border-style: solid;
+    text-align: center;
+  }
+  a {
+    color: purple;
+    text-align: center;
+  }
+  b {
+    color: limegreen;
+  }
+  h1 {
+    font-size: 30px;
+    color: purple;
+    text-align: center;
+  }
+  h2 {
+    color: indigo;
+    text-align: center;
+  }
+  h3 {
+    color: indigo;
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+    background: aquamarine;
+    color: black;
+    border-style: solid;
+
+  }
+</style>
 <body>
-  <div class="wrapper">
+
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <div class="addthis_inline_follow_toolbox"></div>
+            
+  <div class="wrapper">   
     <header>
       <h1><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h1>
       <p class="description">{{ .Site.Params.description }}</p>
@@ -24,6 +82,8 @@
         This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><b>Creative Commons</b> Attribution-ShareAlike 4.0 International License</a>.
       </p>
     </footer>
-  </div>
+  </div>           
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5aee0bfb08261509"></script>
 </body>
 </html>
