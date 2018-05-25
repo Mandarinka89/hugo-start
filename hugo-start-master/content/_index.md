@@ -1,10 +1,10 @@
 ---
-title: Home
+title: Titulní stránka 
 ---
 
-# Už tam nechci mít Hello World :D 
+# K vůli testu z NAMI měním titulky :D 
 
-Tahle stránka nebude pro Huga !!! 
+Máme rádi Huga a repozitáře pro NAMI úkoly
 
 ## (Ne)máme rádi sonety 
 
